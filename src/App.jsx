@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './Components/Header/Header';
+import Blogs from './Components/Blogs/Blogs';
 
 const App = () => {
   return (
     <div>
-      <h2>La ilaha Illallah</h2>
+      <Header></Header>
+      <Blogs></Blogs>
     </div>
   );
 };

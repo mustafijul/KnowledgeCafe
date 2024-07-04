@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "The Great Adventure",
+      "cover_img": "https://example.com/images/great_adventure.jpg",
+      "author": "John Doe",
+      "author_image": "https://example.com/images/john_doe.jpg",
+      "posted_date": "2024-01-01",
+      "hashtag": "#Adventure",
+      "reading_time": 5
+    },
+    {
+      "id": 2,
+      "cover": "Mystery in the Night",
+      "cover_img": "https://example.com/images/mystery_night.jpg",
+      "author": "Jane Smith",
+      "author_image": "https://example.com/images/jane_smith.jpg",
+      "posted_date": "2024-02-15",
+      "hashtag": "#Mystery",
+      "reading_time": 7
+    },
+    {
+      "id": 3,
+      "cover": "Science and the Future",
+      "cover_img": "https://example.com/images/science_future.jpg",
+      "author": "Albert Einstein",
+      "author_image": "https://example.com/images/albert_einstein.jpg",
+      "posted_date": "2024-03-20",
+      "hashtag": "#Science",
+      "reading_time": 10
+    },
+    {
+      "id": 4,
+      "cover": "History of Art",
+      "cover_img": "https://example.com/images/history_art.jpg",
+      "author": "Leonardo da Vinci",
+      "author_image": "https://example.com/images/leonardo_da_vinci.jpg",
+      "posted_date": "2024-04-05",
+      "hashtag": "#Art",
+      "reading_time": 8
+    },
+    {
+      "id": 5,
+      "cover": "Technology Today",
+      "cover_img": "https://example.com/images/technology_today.jpg",
+      "author": "Ada Lovelace",
+      "author_image": "https://example.com/images/ada_lovelace.jpg",
+      "posted_date": "2024-05-10",
+      "hashtag": "#Technology",
+      "reading_time": 6
+    }
+  ]
+  
