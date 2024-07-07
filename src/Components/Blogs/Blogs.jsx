@@ -15,7 +15,7 @@ const  Blogs = () => {
     <div className="md:w-2/3">
       <h2 className="text-4xl">Blogs</h2>
       {
-        blogs.map(blog => <Blog key={blogs.id} blog={blog}></Blog>)
+        blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog>)
       }
     </div>
   );
