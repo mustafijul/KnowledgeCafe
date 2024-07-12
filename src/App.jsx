@@ -6,14 +6,15 @@ import Bookmarks from "./Components/Bookmarks/Bookmarks";
 const App = () => {
   const [bookmarks, setBookmarks] = useState([]);
   const handleAddBookmarks = (blog) => {
-    console.log(blog);
+    const newBookmarks = [...bookmarks, blog]
+    setBookmarks(newBookmarks)
   };
   return (
     <div>
       <Header></Header>
       <div className="md:flex max-w-7xl mx-auto">
         <Blogs handleAddBookmarks={handleAddBookmarks}></Blogs>
-        <Bookmarks></Bookmarks>
+        <Bookmarks bookmarks={bookmarks}></Bookmarks>
       </div>
     </div>
   );

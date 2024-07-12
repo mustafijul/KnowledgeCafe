@@ -7,7 +7,7 @@ const  Blogs = ({handleAddBookmarks}) => {
   useEffect(() => {
     fetch("/public/Blogs.json")
       .then((res) => res.json())
-      .then((data) => setBlogs(data));
+      .then((data) => setBlogs(data))
   }, []);
 
   console.log(blogs);
